@@ -1,0 +1,70 @@
+/* Estilos para el contenedor principal de la guía */
+.guide-container {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  /* Estilo para el título principal */
+  .guide-container h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Lista de pasos con numeración */
+  .steps-list {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  .steps-list li {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Bloques de código estilizados */
+  code {
+    display: block;
+    background-color: #f0f4f8;
+    color: #d63384;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    font-family: 'Courier New', monospace;
+  }
+  
+  /* Estilo para los enlaces */
+  .guide-container a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .guide-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para los párrafos */
+  .guide-container p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Mejorar la apariencia de los títulos secundarios */
+  .steps-list li strong {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Efectos hover para el contenedor */
+  .guide-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  

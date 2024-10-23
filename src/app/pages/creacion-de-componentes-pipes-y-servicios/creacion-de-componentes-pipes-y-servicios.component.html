@@ -1,0 +1,31 @@
+<div class="guide-container">
+    <h2>Creación de Páginas, Componentes, Pipes y Servicios en Angular</h2>
+    <p>Angular permite crear varios elementos fácilmente mediante la CLI. A continuación, se muestran los comandos para generar cada uno:</p>
+    <ul class="steps-list">
+      <li>
+        <strong>Componentes:</strong>
+        <p>Para crear un nuevo componente, utiliza el siguiente comando:</p>
+        <code>ng generate component nombre-componente</code>
+      </li>
+      <li>
+        <strong>Páginas (con enrutamiento):</strong>
+        <p>Crear un componente y añadir la ruta correspondiente en el módulo de enrutamiento para que se pueda navegar a la nueva página:</p>
+        <code>ng generate component nombre-pagina</code>
+        <p>A continuación, agrega la ruta en el archivo de enrutamiento:</p>
+        <code> path: 'nombre-pagina', component: NombrePaginaComponent </code>
+      </li>
+      <li>
+        <strong>Pipes:</strong>
+        <p>Para crear un pipe, ejecuta el siguiente comando:</p>
+        <code>ng generate pipe nombre-pipe</code>
+        <p>Luego, registra el pipe en el módulo correspondiente.</p>
+      </li>
+      <li>
+        <strong>Servicios:</strong>
+        <p>Para generar un nuevo servicio, usa este comando:</p>
+        <code>ng generate service nombre-servicio</code>
+        <p>El servicio estará listo para ser inyectado en los componentes o módulos necesarios.</p>
+      </li>
+    </ul>
+  </div>
+  
